@@ -9,6 +9,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+def hello2():
+    print('hello22222')
+
 def hello():
     print('hello')
 
